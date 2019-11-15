@@ -1,6 +1,6 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import CharacterList from "./CharacterList";
+import CharacterList from "./Characters/CharacterList";
 import WelcomePage from "./WelcomePage";
 import { EmotionalLink } from "../EmotionalTools";
 
