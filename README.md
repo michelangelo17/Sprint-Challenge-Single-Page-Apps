@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Client side routing increases the speed at which the application performs for the user, since it doesn't cause a new http request. It also makes it so only the required data is rerendered, which improves user experience by preventing the 'flash' of page loading. It allows us to have a single page with components that appear and disappear as needed.
 
 ## Project Set Up
 
