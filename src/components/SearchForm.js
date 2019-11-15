@@ -1,10 +1,21 @@
-import React, { useState } from "react";
+import React from 'react'
+import { Container } from '../EmotionalTools'
 
-export default function SearchForm() {
- 
+const SearchForm = props => {
+  const handleChange = e => props.setSearchTerm(e.target.value)
   return (
-    <section className="search-form">
-     // Add a search form here
-    </section>
-  );
+    <Container fd='c' ai='c'>
+      <label htmlFor='search'>Search</label>
+      <input
+        value={props.searchTerm}
+        onChange={handleChange}
+        id='search'
+        placeholder='type your search here!'
+        type='text'
+        name='search'
+      />
+    </Container>
+  )
 }
+
+export default SearchForm
