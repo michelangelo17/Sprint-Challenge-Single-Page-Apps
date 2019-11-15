@@ -4,7 +4,7 @@ import { Container } from '../../EmotionalTools'
 import CharacterCards from './CharacterCards'
 import SearchForm from '../SearchForm'
 
-export default function CharacterList() {
+const CharacterList = () => {
   const charArray = CharactersAPI()
   const [searchTerm, setSearchTerm] = useState('')
   const [searchResults, setSearchResults] = useState([])
@@ -23,3 +23,5 @@ export default function CharacterList() {
     </Container>
   )
 }
+
+export default CharacterList

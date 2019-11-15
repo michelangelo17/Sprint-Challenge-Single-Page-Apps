@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, H2, P, ImageW100 } from '../../EmotionalTools'
+import { Container, H2, P } from '../../EmotionalTools'
 
 const CardMaker = props => (
   <Container
