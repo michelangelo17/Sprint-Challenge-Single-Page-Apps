@@ -4,6 +4,7 @@ import { Container } from '../../EmotionalTools'
 
 const Cards = props => {
   const charArray = props.searchResults
+
   return (
     <Container width='100%' fd='r' jc='c' fw='wrap'>
       {charArray.map((character, index) => (
